@@ -1,13 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --primary-color: #ff3166;
+  --dark-color: #0c2233;
+  --light-color: #e6e6e6;
+  --grey-color: #89939c;
+  --success-color: #219652;
+  --lightPink-color: #fff6f7;
+  --white-color:#ffffff;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

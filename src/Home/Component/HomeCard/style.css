@@ -1,0 +1,152 @@
+.home-card-container {
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 10px 5px var(--light-color);
+  row-gap: 20px;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+.home-card-container:hover {
+    filter: brightness(90%);
+}
+
+.home-card-title-container,
+.home-card-spent-container,
+.home-card-available-container,
+.home-card-burner-container,
+.home-card-subscription-container {
+  justify-content: space-between;
+}
+
+.home-card-title {
+  font-size: 1.2rem;
+  color: var(--dark-color);
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-family: "Montserrat";
+  text-align: left;
+}
+
+.home-card-title-container,
+.home-card-user-container,
+.home-card-spent-container,
+.home-card-available-container,
+.home-card-container,
+.home-card-spent-title,
+.home-card-available-title,
+.home-card-burner-container,
+.home-card-subscription-container {
+  display: flex;
+}
+
+.home-card-burner-expire-value,
+.home-card-subscription-limit-value,
+.home-card-user-container,
+.home-card-burner-badge,
+.home-card-subscription-badge {
+    color: var(--grey-color);
+}
+
+.home-card-user-container {
+  letter-spacing: 0.5px;
+  align-items: center;
+}
+
+.home-card-dot {
+  width: 3px;
+  height: 3px;
+  background: var(--grey-color);
+  margin: 0 5px;
+}
+
+.home-card-spent-dot,
+.home-card-available-dot {
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 10px;
+  height: 10px;
+}
+
+.home-card-spent-dot {
+  background: var(--primary-color);
+}
+
+.home-card-available-dot {
+  background: var(--success-color);
+}
+
+.home-card-burner-icon,
+.home-card-subscription-icon {
+  width: 40px;
+  height: 40px;
+  background: var(--lightPink-color);
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 2px var(--light-color);
+}
+
+.home-card-burner-icon,
+.home-card-subscription-icon,
+.home-card-spent-title,
+.home-card-available-title {
+  align-items: center;
+}
+
+.home-card-burner-svg,
+.home-card-subscription-svg {
+  width: 25px;
+  height: 25px;
+}
+
+.home-card-user-container,
+.home-card-spent-title,
+.home-card-burner-expire-value,
+.home-card-burner-subscription-limit-value, 
+.home-card-burner-badge,
+.home-card-subscription-badge{
+  font-family: "Roboto";
+}
+
+.home-card-spent-container,
+.home-card-available-container {
+  color: var(--dark-color);
+  font-size: 1rem;
+}
+
+.home-card-burner-expire-value,
+.home-card-subscription-limit-value ,
+.home-card-available-value,
+.home-card-subscription-badge,
+.home-card-burner-badge {
+  font-weight: 500;
+}
+
+.home-card-progress-container {
+  width: 100%;
+  background: var(--success-color);
+  border-radius: 4px;
+  height: 10px;
+}
+
+.home-card-spent-progress {
+  background: var(--primary-color);
+  height: 100%;
+  border-radius: 4px 0 0 4px;
+}
+
+.home-card-burner-expire-value,
+.home-card-subscription-limit-value {
+    font-size: 0.8rem;
+}
+
+.home-card-subscription-badge,
+.home-card-burner-badge{
+    border:1px solid var(--grey-color);
+    font-size: 0.9rem;
+    padding: 1px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}

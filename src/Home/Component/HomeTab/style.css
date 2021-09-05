@@ -1,0 +1,27 @@
+.hometab-list-container{
+    text-align: left;
+    border-bottom: 1px solid var(--light-color);
+    padding-left: 0;
+    margin:0;
+}
+
+.hometab-list-item{
+    display: inline-block;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: var(--grey-color);
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+.hometab-list-item:hover{
+    filter: brightness(130%);
+}
+
+.hometab-activated{
+    border-bottom: 3px solid var(--primary-color);
+    color: var(--dark-color);
+    padding-bottom: 12px;
+}
