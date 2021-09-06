@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { homeData } from "../../../Homedata";
 import { useFilter } from "./context";
 import "./style.css";
